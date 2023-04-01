@@ -1,0 +1,51 @@
+/* untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #6495ED;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover {
+    background-color: #00008B;
+}
+
+/* untuk tabel */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightslategray;
+}
